@@ -54,7 +54,7 @@ export default function Home() {
         <div className="absolute top-0 left-0 w-full h-full">
           <video
             className="w-full h-full object-cover"
-            src="/videos/elite-pen-writers-bg-home.mp4"
+            src="/videos/elite-writers-bg-home.mp4"
             autoPlay
             loop
             muted
