@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex items-center space-x-2">
           <Image
             src="/elite-pen-logo.png"
-            alt="Elite Pen Writers Logo"
+            alt="Elite Pen Consultancy Logo"
             width={200}
             height={200}
           />
@@ -66,10 +66,10 @@ export default function Home() {
 
         {/* Overlay Content */}
         <div className="z-10 bg-black bg-opacity-0 p-10 rounded-lg pl-[65vw]">
-          <h2 className="text-6xl  text-start font-black mb-4">
-            ELITE PEN WRITERS
+          <h2 className="text-5xl  text-start font-black mb-4">
+            ELITE PEN CONSULTANCY
           </h2>
-          <h2 className="text-3xl  text-start  mb-4">
+          <h2 className="text-2xl  text-start  mb-4">
             Let Us Be Your Teammate
           </h2>
           {/*<p className="text-lg text-start">
@@ -97,10 +97,10 @@ export default function Home() {
         {/* Middle Section */}
         <div className="bg-gray-800 py-2 text-center text-sm flex items-center justify-center grow">
           <div className="text-sm flex flex-col items-center justify-center gap-2">
-            <p>ELITE PEN WRITERS</p>
+            <p>ELITE PEN CONSULTANCY</p>
 
             <div className="flex justify-center items-center space-x-4 w-full">
-              <p>EMAIL: elitepenwriters@gmail.com</p>
+              <p>EMAIL: elitepenconsultancy@gmail.com</p>
               <p>PHONE: (254) 708 313 804</p>
               <p>30367-00100 NAIROBI, KENYA</p>
             </div>
@@ -111,7 +111,7 @@ export default function Home() {
         <div className="bg-gray-900 py-2 text-center text-xs  ">
           <p className="flex gap-4 justify-center items-center">
             <span>
-              Copyright © 2025 Elite Pen Writers.™ All rights reserved.
+              Copyright © 2025 Elite Pen Consultancy.™ All rights reserved.
             </span>
             •
             <a href="#" className="hover:underline">
