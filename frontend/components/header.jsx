@@ -10,7 +10,7 @@ const Header = () => {
 
   return (
     <header className="bg-transparent p-6 h-32 md:h-60 w-full z-50">
-      <div className="flex justify-between pt-4 h-full">
+      <div className="flex justify-between h-full">
         {/* Logo */}
         <div className="hidden md:flex align-top space-x-2 w-100 h-100">
           <Link href="/">
@@ -34,7 +34,7 @@ const Header = () => {
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 text-sm">
+        <nav className="hidden md:flex space-x-6 text-sm pt-4">
           {[
             {
               label: "Academic Research and Dissertation Consulting",
