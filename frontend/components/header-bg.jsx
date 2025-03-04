@@ -29,6 +29,7 @@ const Header = () => {
               alt="Elite Pen Consultancy Logo"
               width={100}
               height={100}
+              priority
             />
           </Link>
         </div>
