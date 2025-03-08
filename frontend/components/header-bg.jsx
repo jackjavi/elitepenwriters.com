@@ -41,8 +41,8 @@ const Header = () => {
               label: "Academic Research",
               link: "/academic-writing",
             },
-            { label: "Programming and Web Development", link: "#" },
             { label: "Dissertation Consulting", link: "research" },
+            { label: "AI Removal", link: "ai-removal" },
             { label: "Contact Us", link: "#" },
             { label: "Home", link: "#" },
           ].map((item, index) => (
@@ -71,8 +71,8 @@ const Header = () => {
               label: "Academic Research",
               link: "/academic-writing",
             },
-            { label: "Programming and Web Development", link: "#" },
             { label: "Dissertation Consulting", link: "research" },
+            { label: "AI Removal", link: "ai-removal" },
             { label: "Contact Us", link: "#" },
             { label: "Home", link: "#" },
           ].map((item, index) => (
