@@ -3,11 +3,11 @@
 import { useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header-bg";
-import Sidebar from "./_components/sidebar";
+import Sidebar from "../research/_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "@/components/contact";
 
-export default function DissertationServices() {
+export default function AcademicWritingServices() {
   return (
     <>
       <Header />
@@ -32,7 +32,8 @@ export default function DissertationServices() {
           {/* Progress Bar */}
           <div className="mt-6 text-center">
             <p className="text-xl font-semibold text-indigo-700">
-              Expert Dissertation Assistance from Start to Finish
+              Comprehensive Academic Writing Assistance for Bachelor’s, Master’s
+              & PhD
             </p>
             <div className="flex justify-center items-center mt-2">
               <div className="flex space-x-2">
@@ -48,57 +49,53 @@ export default function DissertationServices() {
 
           {/* Main Content */}
           <h1 className="mt-8 text-3xl font-black text-gray-700">
-            ELITE BRAINS CONSULTING – YOUR PARTNER IN THE DISSERTATION JOURNEY
+            ELITE BRAINS CONSULTING – YOUR PARTNER IN ACADEMIC EXCELLENCE
           </h1>
 
           {/* Overview Section */}
           <div className="mt-4 bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
-            Every stage of your dissertation process is crucial. At Elite Brains
-            Consulting, we provide expert guidance from the introduction to the
-            conclusion. Our services are AI-free, uniquely tailored, and
-            designed to meet top academic standards.
+            Navigating academic writing can be challenging. At Elite Brains
+            Consulting, we provide expert guidance on essays, research papers,
+            reports, case studies, and more. Our services are AI-free, uniquely
+            tailored, and designed to meet top academic standards.
           </div>
 
-          {/* Stages of Dissertation */}
+          {/* Services Breakdown */}
           <h2 className="mt-8 text-xl font-bold text-gray-700">
-            Our Services Cover:
+            Our Academic Writing Services Cover:
           </h2>
           <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4">
             <li>
-              <span className="font-semibold text-blue-700">Introduction:</span>
-              Establishing research objectives, significance, and structure.
+              <span className="font-semibold text-blue-700">Essays:</span>{" "}
+              Crafting well-structured and original essays for any subject.
             </li>
             <li>
               <span className="font-semibold text-blue-700">
-                Literature Review:
-              </span>
-              A comprehensive, analytical review identifying gaps in existing
-              research.
+                Research Papers:
+              </span>{" "}
+              Conducting in-depth analysis with credible sources.
             </li>
             <li>
-              <span className="font-semibold text-blue-700">Methodology:</span>
-              Crafting a robust research design, data collection, and analysis
-              plan.
-            </li>
-            <li>
-              <span className="font-semibold text-blue-700">
-                Results & Analysis:
-              </span>
-              Interpreting findings with clarity and academic precision.
-            </li>
-            <li>
-              <span className="font-semibold text-blue-700">Discussion:</span>
-              Linking findings to research questions and theoretical frameworks.
+              <span className="font-semibold text-blue-700">Case Studies:</span>{" "}
+              Developing detailed case studies with critical insights.
             </li>
             <li>
               <span className="font-semibold text-blue-700">
-                Recommendations:
-              </span>
-              Offering practical insights and areas for further research.
+                Thesis & Dissertations:
+              </span>{" "}
+              Comprehensive writing support from topic selection to final edits.
             </li>
             <li>
-              <span className="font-semibold text-blue-700">Conclusion:</span>
-              Summarizing key insights and emphasizing research contributions.
+              <span className="font-semibold text-blue-700">
+                Coursework & Assignments:
+              </span>{" "}
+              Assisting with mid-term and end-of-term projects.
+            </li>
+            <li>
+              <span className="font-semibold text-blue-700">
+                Editing & Proofreading:
+              </span>{" "}
+              Refining content for clarity, coherence, and academic rigor.
             </li>
           </ul>
 
@@ -107,14 +104,14 @@ export default function DissertationServices() {
             <ContactForm />
           </div>
 
-          {/* AI-Free & Editing Section */}
+          {/* AI-Free & Customization */}
           <h2 className="mt-8 text-xl font-bold text-gray-700">
-            100% AI-Free, Customized, and Professional Editing Services
+            100% AI-Free, Original & Tailored Academic Writing Services
           </h2>
           <p className="mt-4 text-gray-700 leading-relaxed">
-            We ensure your dissertation is meticulously crafted by subject
-            matter experts. Our editing services refine your work, improving
-            clarity, coherence, and adherence to academic standards.
+            We prioritize authenticity and academic integrity. Every paper is
+            meticulously crafted by our experts, ensuring originality, critical
+            analysis, and compliance with top-tier academic guidelines.
           </p>
         </div>
       </div>

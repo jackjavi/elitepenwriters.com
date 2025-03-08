@@ -8,41 +8,20 @@ export default function Sidebar() {
 
       {/* Navigation Links */}
       <ul className="mt-4 space-y-2 text-gray-700">
-        {[
-          "Coursework Assistance",
-          "Comprehensive Exams",
-          "Topic Development",
-          "Prospectus/Concept Paper",
-          "Introduction",
-          "Literature Review",
-          "Systematic Literature Review",
-          "Qualitative Methodology",
-          "Quantitative Methodology",
-          "Power Analysis",
-          "IRB",
-          "Transcription",
-          "Qualitative Analysis",
-          "Statistical Analysis",
-          "Discussion Section",
-          "Dissertation Defense",
-          "Virtual Tutoring and Coaching",
-          "Thesis Consulting",
-          "Journal Article Assistance",
-          "Medium Article Assistance",
-          "Data Collection",
-          "AI Removal",
-        ].map((item, index) => (
-          <li
-            key={index}
-            className={`${
-              item === "Literature Review"
-                ? "bg-gray-700 text-white px-3 py-2 rounded"
-                : "hover:text-indigo-600 cursor-pointer"
-            }`}
-          >
-            {item}
-          </li>
-        ))}
+        {["Dissertation Consulting", "Academic Research", "AI Removal"].map(
+          (item, index) => (
+            <li
+              key={index}
+              className={`${
+                item === "Literature Review"
+                  ? "bg-gray-700 text-white px-3 py-2 rounded"
+                  : "hover:text-indigo-600 cursor-pointer"
+              }`}
+            >
+              {item}
+            </li>
+          )
+        )}
       </ul>
 
       {/* Sidebar Quote */}

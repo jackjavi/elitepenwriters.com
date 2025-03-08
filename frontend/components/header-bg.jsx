@@ -38,11 +38,11 @@ const Header = () => {
         <nav className="hidden md:flex space-x-6 text-sm">
           {[
             {
-              label: "Academic Research and Dissertation Consulting",
-              link: "/research",
+              label: "Academic Research",
+              link: "/academic-writing",
             },
             { label: "Programming and Web Development", link: "#" },
-            { label: "Editing Services", link: "#" },
+            { label: "Dissertation Consulting", link: "research" },
             { label: "Contact Us", link: "#" },
             { label: "Home", link: "#" },
           ].map((item, index) => (
@@ -67,9 +67,12 @@ const Header = () => {
       {isOpen && (
         <div className="md:hidden bg-gray-900 bg-opacity-90 absolute top-20 left-0 w-full flex flex-col items-center space-y-4 py-6">
           {[
-            { label: "Academic Research", link: "/research" },
-            { label: "Web Development", link: "#" },
-            { label: "Editing Services", link: "#" },
+            {
+              label: "Academic Research",
+              link: "/academic-writing",
+            },
+            { label: "Programming and Web Development", link: "#" },
+            { label: "Dissertation Consulting", link: "research" },
             { label: "Contact Us", link: "#" },
             { label: "Home", link: "#" },
           ].map((item, index) => (
