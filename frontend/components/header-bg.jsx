@@ -3,13 +3,13 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X } from "lucide-react"; // Icons for mobile menu
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[url('/header-bg-4.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
+    <header className="bg-[url('http://res.cloudinary.com/popit/image/upload/v1742229629/twerhp0acc8xgo13jlwv.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">
