@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -7,6 +8,7 @@ export default function ContactForm() {
     email: "",
     phone: "",
     description: "",
+    fromPage: "ai-removal",
   });
 
   const handleChange = (e) => {
@@ -14,11 +16,11 @@ export default function ContactForm() {
     setFormData({ ...formData, [name]: value });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic (send to backend, show confirmation, etc.)
-    console.log("Form Submitted", formData);
-  };
+  // const handleSubmit = (e) => {
+  // e.preventDefault();
+  // Handle form submission logic (send to backend, show confirmation, etc.)
+  // console.log("Form Submitted", formData);
+  // };
 
   return (
     <div className="bg-gray-900 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
@@ -26,7 +28,11 @@ export default function ContactForm() {
       <p className="text-center mt-2">
         We typically respond within 1 hour during business hours.
       </p>
-      <form onSubmit={handleSubmit} className="mt-6 flex flex-col gap-4">
+      <form
+        action="https://getform.io/f/ae834033-cf08-4bdf-abdc-879e5999abb2"
+        method="POST"
+        className="mt-6 flex flex-col gap-4"
+      >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
             type="text"
@@ -67,12 +73,13 @@ export default function ContactForm() {
         />
         <textarea
           name="description"
-          placeholder="Briefly describe your research and required support"
+          placeholder="Briefly describe your required support"
           value={formData.description}
           onChange={handleChange}
           required
           className="p-2 w-full border mt-4 text-black h-24"
         ></textarea>
+        <input type="hidden" name="fromPage" value={formData.fromPage} />
         <button
           type="submit"
           className="bg-teal-500 hover:bg-teal-600 text-white font-bold py-2 px-4 rounded mt-4 w-full"
@@ -89,10 +96,14 @@ export default function ContactForm() {
             within an hour.
           </li>
           <li className="mt-2">
-            <strong>2.</strong> Schedule a Google Meet call at your convenience.{" "}
-            <a href="#" className="text-teal-300 underline">
-              Click here to schedule.
-            </a>
+            <strong>2.</strong> Contact us on WhatsApp at{" "}
+            <Link
+              href="https://wa.me/254708313804"
+              target="_blank"
+              className="text-teal-300 underline"
+            >
+              here.
+            </Link>
           </li>
           <li className="mt-2">
             <strong>3.</strong> Email us at{" "}

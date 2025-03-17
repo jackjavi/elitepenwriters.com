@@ -6,7 +6,7 @@ export default function Sidebar() {
     <div className="hidden md:block md:max-w-md p-6">
       {/* Sidebar Title */}
       <h2 className="text-lg font-bold text-gray-900">
-        ACADEMIC RESEARCH AND DISSERTATION CONSULTING
+        ACADEMIC RESEARCH AND COURSEWORK HELP
       </h2>
 
       {/* Navigation Links */}
@@ -19,7 +19,7 @@ export default function Sidebar() {
           <li
             key={index}
             className={`${
-              item.name === "Dissertation Consulting"
+              item.name === "Academic Research"
                 ? "bg-gray-700 text-white px-3 py-2 rounded"
                 : "hover:text-indigo-600 cursor-pointer"
             }`}
@@ -29,7 +29,7 @@ export default function Sidebar() {
         ))}
       </ul>
 
-      {/* Sidebar Image 
+      {/* Sidebar Image */}
       <div className="mt-6">
         <Image
           src="/acad-research.png"
@@ -38,13 +38,14 @@ export default function Sidebar() {
           height={500}
           layout="responsive"
         />
-      </div>*/}
+      </div>
 
       {/* Sidebar Quote */}
       <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
-        “Completing a dissertation is a marathon, not a sprint. At Elite Brains
-        Consulting, we provide strategic guidance, expert research support, and
-        meticulous editing to help you cross the finish line with confidence.”
+        “For years, Elite Brains Consulting has provided expert academic writing
+        assistance, helping students and professionals craft high-quality
+        essays, research papers, and reports. We are committed to delivering
+        AI-free, customized content that meets the highest academic standards.”
       </blockquote>
     </div>
   );

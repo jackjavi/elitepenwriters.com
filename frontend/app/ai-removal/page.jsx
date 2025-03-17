@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 import Header from "../../components/header-bg";
-import Sidebar from "../research/_components/sidebar";
+import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
-import ContactForm from "@/components/contact";
+import ContactForm from "./_components/contact";
 
 export default function AIRemoval() {
   return (

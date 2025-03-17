@@ -3,9 +3,9 @@
 import { useState } from "react";
 import Link from "next/link";
 import Header from "../../components/header-bg";
-import Sidebar from "../research/_components/sidebar";
+import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
-import ContactForm from "@/components/contact";
+import ContactForm from "./_components/contact";
 
 export default function AcademicWritingServices() {
   return (
@@ -16,7 +16,7 @@ export default function AcademicWritingServices() {
         <Sidebar />
 
         {/* Main Content */}
-        <div className="p-6">
+        <main className="p-6">
           {/* Navigation */}
           <div className="flex justify-between items-center text-gray-700 text-sm">
             <Link href="/">
@@ -113,7 +113,7 @@ export default function AcademicWritingServices() {
             meticulously crafted by our experts, ensuring originality, critical
             analysis, and compliance with top-tier academic guidelines.
           </p>
-        </div>
+        </main>
       </div>
       <Footer />
     </>

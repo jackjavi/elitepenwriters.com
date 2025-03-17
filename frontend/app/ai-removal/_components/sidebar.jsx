@@ -5,9 +5,7 @@ export default function Sidebar() {
   return (
     <div className="hidden md:block md:max-w-md p-6">
       {/* Sidebar Title */}
-      <h2 className="text-lg font-bold text-gray-900">
-        ACADEMIC RESEARCH AND DISSERTATION CONSULTING
-      </h2>
+      <h2 className="text-lg font-bold text-gray-900">AI REMOVAL SERVICES</h2>
 
       {/* Navigation Links */}
       <ul className="mt-4 space-y-2 text-gray-700">
@@ -19,7 +17,7 @@ export default function Sidebar() {
           <li
             key={index}
             className={`${
-              item.name === "Dissertation Consulting"
+              item.name === "AI Removal"
                 ? "bg-gray-700 text-white px-3 py-2 rounded"
                 : "hover:text-indigo-600 cursor-pointer"
             }`}
@@ -42,9 +40,10 @@ export default function Sidebar() {
 
       {/* Sidebar Quote */}
       <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
-        “Completing a dissertation is a marathon, not a sprint. At Elite Brains
-        Consulting, we provide strategic guidance, expert research support, and
-        meticulous editing to help you cross the finish line with confidence.”
+        “AI-generated content detection is more rigorous than ever. At Elite
+        Brains Consulting, we transform AI-generated text into authentic,
+        humanized content—ensuring originality, readability, and compliance with
+        academic and professional standards.”
       </blockquote>
     </div>
   );

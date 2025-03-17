@@ -5,7 +5,7 @@ import Link from "next/link";
 import Header from "../../components/header-bg";
 import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
-import ContactForm from "@/components/contact";
+import ContactForm from "./_components/contact";
 
 export default function DissertationServices() {
   return (
@@ -16,7 +16,7 @@ export default function DissertationServices() {
         <Sidebar />
 
         {/* Main Content */}
-        <div className="p-6">
+        <main className="p-6">
           {/* Navigation */}
           <div className="flex justify-between items-center text-gray-700 text-sm">
             <Link href="/">
@@ -116,7 +116,7 @@ export default function DissertationServices() {
             matter experts. Our editing services refine your work, improving
             clarity, coherence, and adherence to academic standards.
           </p>
-        </div>
+        </main>
       </div>
       <Footer />
     </>
