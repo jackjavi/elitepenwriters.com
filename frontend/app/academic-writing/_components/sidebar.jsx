@@ -32,7 +32,7 @@ export default function Sidebar() {
       {/* Sidebar Image */}
       <div className="mt-6">
         <Image
-          src="/acad-research.png"
+          src="http://res.cloudinary.com/popit/image/upload/v1742305472/wy4tczfczwhxhk8gors0.png"
           alt="Academic Research"
           width={500}
           height={500}
