@@ -27,17 +27,6 @@ export default function Sidebar() {
         ))}
       </ul>
 
-      {/* Sidebar Image 
-      <div className="mt-6">
-        <Image
-          src="/acad-research.png"
-          alt="Academic Research"
-          width={500}
-          height={500}
-          layout="responsive"
-        />
-      </div>*/}
-
       {/* Sidebar Quote */}
       <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
         “AI-generated content detection is more rigorous than ever. At Elite
@@ -45,6 +34,17 @@ export default function Sidebar() {
         humanized content—ensuring originality, readability, and compliance with
         academic and professional standards.”
       </blockquote>
+
+      {/* Sidebar Image */}
+      <div className="mt-6">
+        <Image
+          src="http://res.cloudinary.com/popit/image/upload/v1742369063/i8tzcfw8ewtedrgn3xac.png"
+          alt="Academic Research"
+          width={500}
+          height={500}
+          layout="responsive"
+        />
+      </div>
     </div>
   );
 }
