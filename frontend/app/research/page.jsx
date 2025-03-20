@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Header from "../../components/header-bg";
+import Header from "./_components/header-bg";
 import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
@@ -31,7 +31,7 @@ export default function DissertationServices() {
 
           {/* Progress Bar */}
           <div className="mt-6 text-center">
-            <p className="text-xl font-semibold text-indigo-700">
+            <p className="text-md md:text-lg font-semibold text-indigo-700">
               Expert Dissertation Assistance from Start to Finish
             </p>
             <div className="flex justify-center items-center mt-2">
@@ -47,12 +47,12 @@ export default function DissertationServices() {
           </div>
 
           {/* Main Content */}
-          <h1 className="mt-8 text-3xl font-black text-gray-700">
+          <h1 className="mt-8 text-xl md:text-3xl font-black text-gray-700">
             ELITE BRAINS CONSULTING – YOUR PARTNER IN THE DISSERTATION JOURNEY
           </h1>
 
           {/* Overview Section */}
-          <div className="mt-4 bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
+          <div className="mt-4 text-md md:text-lg bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
             Every stage of your dissertation process is crucial. At Elite Brains
             Consulting, we provide expert guidance from the introduction to the
             conclusion. Our services are AI-free, uniquely tailored, and
@@ -60,10 +60,10 @@ export default function DissertationServices() {
           </div>
 
           {/* Stages of Dissertation */}
-          <h2 className="mt-8 text-xl font-bold text-gray-700">
+          <h2 className="mt-8 text-lg  md:text-xl font-bold text-gray-700">
             Our Services Cover:
           </h2>
-          <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4">
+          <ul className="list-disc pl-6 text-gray-500 leading-relaxed mt-4">
             <li>
               <span className="font-semibold text-blue-700">Introduction:</span>
               Establishing research objectives, significance, and structure.

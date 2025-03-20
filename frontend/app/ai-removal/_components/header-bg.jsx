@@ -9,32 +9,33 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-transparent p-6 h-32 md:h-60 w-full z-50">
-      <div className="flex justify-between h-full">
+    <header className="bg-[url('http://res.cloudinary.com/popit/image/upload/v1742494206/h2mvghzwdt0rbx0p1rzw.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
+      <div className="flex justify-between items-center">
         {/* Logo */}
-        <div className="hidden md:flex align-top space-x-2 w-100 h-100">
+        <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
               src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
-              alt="Elite Brains Consulting Logo"
+              alt="Elite BRAINS CONSULTING Logo White"
               width={350}
               height={350}
             />
           </Link>
         </div>
-        <div className="md:hidden flex  space-x-2">
+        <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
               src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
-              alt="Elite Brains Consulting Logo"
-              width={100}
-              height={100}
+              alt="Elite BRAINS CONSULTING Logo White"
+              width={150}
+              height={150}
+              priority
             />
           </Link>
         </div>
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex space-x-6 text-sm pt-4">
+        <nav className="hidden md:flex space-x-6 text-sm">
           {[
             {
               label: "Academic Research",
@@ -73,7 +74,7 @@ const Header = () => {
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
             { label: "Contact Us", link: "#" },
-            { label: "Home", link: "/" },
+            { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link} onClick={() => setIsOpen(false)}>
               <button className="text-white text-lg hover:underline">

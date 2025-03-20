@@ -9,13 +9,13 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[url('http://res.cloudinary.com/popit/image/upload/v1742229629/twerhp0acc8xgo13jlwv.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
+    <header className="bg-[url('http://res.cloudinary.com/popit/image/upload/v1742495979/mwtbe2p6nwuyby2itemm.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742467778/i2txmsrn0ltzk83o6qhj.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
               alt="Elite BRAINS CONSULTING Logo White"
               width={350}
               height={350}
@@ -25,7 +25,7 @@ const Header = () => {
         <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742467778/i2txmsrn0ltzk83o6qhj.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
               alt="Elite BRAINS CONSULTING Logo White"
               width={150}
               height={150}
@@ -57,7 +57,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-white focus:outline-none z-50"
+          className="md:hidden text-gray-500 focus:outline-none z-50"
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>

@@ -23,9 +23,11 @@ export default function ContactForm() {
   // };
 
   return (
-    <div className="bg-gray-900 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
-      <h2 className="text-2xl font-bold text-center">Get in Touch with Us</h2>
-      <p className="text-center mt-2">
+    <div className="bg-gray-700 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
+      <h2 className="text-xl md:text-2xl font-bold text-center">
+        Get in Touch with Us
+      </h2>
+      <p className="text-sm md:text-lg text-center mt-2">
         We typically respond within 1 hour during business hours.
       </p>
       <form
@@ -33,7 +35,7 @@ export default function ContactForm() {
         method="POST"
         className="mt-6 flex flex-col gap-4"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="text-md md:text-lg grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
             type="text"
             name="firstName"

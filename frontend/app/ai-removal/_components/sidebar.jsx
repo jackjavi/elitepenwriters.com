@@ -5,7 +5,7 @@ export default function Sidebar() {
   return (
     <div className="hidden md:block md:max-w-md p-6">
       {/* Sidebar Title */}
-      <h2 className="text-lg font-bold text-gray-900">AI REMOVAL SERVICES</h2>
+      <h2 className="text-lg font-bold text-gray-700">AI REMOVAL SERVICES</h2>
 
       {/* Navigation Links */}
       <ul className="mt-4 space-y-2 text-gray-700">
@@ -39,7 +39,7 @@ export default function Sidebar() {
       </div>
 
       {/* Sidebar Quote */}
-      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
+      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-500">
         “AI-generated content detection is more rigorous than ever. At Elite
         Brains Consulting, we transform AI-generated text into authentic,
         humanized content—ensuring originality, readability, and compliance with
