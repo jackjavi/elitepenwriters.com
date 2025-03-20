@@ -15,8 +15,8 @@ const Header = () => {
         <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
-              alt="Elite Pen Consultancy Logo"
+              src="/elite-brains-logo-white.png"
+              alt="Elite BRAINS CONSULTING Logo"
               width={350}
               height={350}
             />
@@ -25,10 +25,11 @@ const Header = () => {
         <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="/elite-brains-logo-white.png"
               alt="Elite Pen Consultancy Logo"
               width={150}
               height={150}
+              priority
             />
           </Link>
         </div>

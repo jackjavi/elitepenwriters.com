@@ -7,12 +7,12 @@ import Footer from "../components/footer-2";
 
 export default function Home() {
   return (
-    <div className="h-screen flex flex-col font-[family-name:var(--font-geist-sans)] text-white">
+    <div className="h-screen flex flex-col font-[family-name:var(--font-geist-sans)] text-gray-500">
       {/* Header */}
       <Header />
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center md:justify-normal text-center h-[75vh]">
+      <section className="flex flex-col items-center justify-center  text-center h-[75vh]">
         {/* Video Background */}
         <div className="absolute top-0 left-0 w-full h-full">
           <Image
