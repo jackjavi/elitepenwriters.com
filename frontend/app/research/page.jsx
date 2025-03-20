@@ -16,7 +16,7 @@ export default function DissertationServices() {
         <Sidebar />
 
         {/* Main Content */}
-        <main className="p-6">
+        <main className="p-6 mb-20">
           {/* Navigation */}
           <div className="flex justify-between items-center text-gray-700 text-sm">
             <Link href="/">

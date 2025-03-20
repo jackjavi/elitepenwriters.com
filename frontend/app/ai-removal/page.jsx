@@ -15,7 +15,7 @@ export default function AIRemoval() {
         <Sidebar />
 
         {/* Main Content */}
-        <div className="p-6">
+        <div className="p-6 mb-20">
           {/* Navigation */}
           <div className="flex justify-between items-center text-gray-700 text-sm">
             <Link href="/">

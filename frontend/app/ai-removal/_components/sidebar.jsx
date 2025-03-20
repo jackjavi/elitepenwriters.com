@@ -18,7 +18,7 @@ export default function Sidebar() {
             key={index}
             className={`${
               item.name === "AI Removal"
-                ? "bg-gray-700 text-white px-3 py-2 rounded"
+                ? "bg-gray-800 bg-opacity-30 text-white px-3 py-2 rounded"
                 : "hover:text-indigo-600 cursor-pointer"
             }`}
           >
