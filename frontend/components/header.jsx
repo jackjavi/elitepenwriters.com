@@ -56,7 +56,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-white focus:outline-none z-50"
+          className="md:hidden text-gray-500 focus:outline-none z-50"
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
@@ -73,7 +73,7 @@ const Header = () => {
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
             { label: "Contact Us", link: "#" },
-            { label: "Home", link: "#" },
+            { label: "Home", link: "/" },
           ].map((item, index) => (
             <Link key={index} href={item.link} onClick={() => setIsOpen(false)}>
               <button className="text-white text-lg hover:underline">
