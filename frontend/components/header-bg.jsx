@@ -16,7 +16,7 @@ const Header = () => {
           <Link href="/">
             <Image
               src="/elite-brains-logo-white.png"
-              alt="Elite Pen Consultancy Logo"
+              alt="Elite BRAINS CONSULTING Logo"
               width={250}
               height={250}
             />

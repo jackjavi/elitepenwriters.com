@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, X } from "lucide-react"; // Icons for mobile menu
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,17 +15,17 @@ const Header = () => {
         <div className="hidden md:flex align-top space-x-2 w-100 h-100">
           <Link href="/">
             <Image
-              src="/elite-brains-logo-white.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
               alt="Elite Pen Consultancy Logo"
-              width={250}
-              height={250}
+              width={350}
+              height={350}
             />
           </Link>
         </div>
         <div className="md:hidden flex  space-x-2">
           <Link href="/">
             <Image
-              src="/elite-brains-logo-white.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
               alt="Elite Pen Consultancy Logo"
               width={100}
               height={100}
@@ -46,7 +46,7 @@ const Header = () => {
             { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
-              <button className="hover:underline bg-gray-800 bg-opacity-80 text-white px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
+              <button className="hover:underline bg-gray-300 bg-opacity-80 text-gray-800 px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
                 {item.label}
               </button>
             </Link>

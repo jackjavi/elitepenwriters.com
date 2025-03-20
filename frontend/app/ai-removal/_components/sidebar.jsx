@@ -27,16 +27,8 @@ export default function Sidebar() {
         ))}
       </ul>
 
-      {/* Sidebar Quote */}
-      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
-        “AI-generated content detection is more rigorous than ever. At Elite
-        Brains Consulting, we transform AI-generated text into authentic,
-        humanized content—ensuring originality, readability, and compliance with
-        academic and professional standards.”
-      </blockquote>
-
       {/* Sidebar Image */}
-      <div className="mt-6">
+      <div className="mt-12">
         <Image
           src="http://res.cloudinary.com/popit/image/upload/v1742369063/i8tzcfw8ewtedrgn3xac.png"
           alt="Academic Research"
@@ -45,6 +37,14 @@ export default function Sidebar() {
           layout="responsive"
         />
       </div>
+
+      {/* Sidebar Quote */}
+      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
+        “AI-generated content detection is more rigorous than ever. At Elite
+        Brains Consulting, we transform AI-generated text into authentic,
+        humanized content—ensuring originality, readability, and compliance with
+        academic and professional standards.”
+      </blockquote>
     </div>
   );
 }

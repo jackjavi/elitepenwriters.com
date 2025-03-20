@@ -41,7 +41,7 @@ export default function Sidebar() {
       </div>*/}
 
       {/* Sidebar Quote */}
-      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
+      <blockquote className="mt-12 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
         “Completing a dissertation is a marathon, not a sprint. At Elite Brains
         Consulting, we provide strategic guidance, expert research support, and
         meticulous editing to help you cross the finish line with confidence.”
