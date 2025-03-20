@@ -10,7 +10,7 @@ export default function AIRemoval() {
   return (
     <>
       <Header />
-      <div className="flex gap-8 pt-4 md:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
+      <div className="flex gap-8 pt-4 md:max-w-[60vw] mx-auto font-[family-name:var(--font-geist-sans)]">
         {/* Sidebar on the left */}
         <Sidebar />
 
