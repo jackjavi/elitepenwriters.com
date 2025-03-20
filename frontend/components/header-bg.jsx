@@ -47,7 +47,7 @@ const Header = () => {
             { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
-              <button className="hover:underline bg-gray-800 bg-opacity-80 text-white px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
+              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
                 {item.label}
               </button>
             </Link>
