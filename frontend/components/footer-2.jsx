@@ -31,7 +31,7 @@ const Footer = () => {
           <p>ELITE BRAINS CONSULTING</p>
 
           <div className="hidden md:flex justify-center items-center space-x-4 w-full">
-            <p>EMAIL: elitebrainsconsulting@gmail.com</p>
+            <p>elitebrainsconsulting@gmail.com</p>
             <p>30367-00100 NAIROBI, KENYA</p>
           </div>
         </div>
