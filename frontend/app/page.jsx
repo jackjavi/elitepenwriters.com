@@ -35,7 +35,7 @@ export default function Home() {
         
 
         {/* Overlay Content */}
-        <div className="z-10 bg-opacity-110 p-10 rounded-lg md:pl-[58vw]">
+        <div className="z-10 bg-opacity-110 p-10 rounded-lg md:pl-[25%]">
           <h2 className="text-sm md:text-md lg:text-lg xl:text-2xl 2xl:text-4xl drop-shadow-lg drop-shadow-gray-200 text-start font-bold lg:font-black mb-4">
             ELITE BRAINS CONSULTING
           </h2>
