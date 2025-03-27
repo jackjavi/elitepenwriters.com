@@ -13,9 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Elite Pen Writers - Professional Writing Services for Global Clients",
+  title: "Elite Brains Consulting | Professional Research & Writing Services",
   description:
-    "Elite Pen Writers offers expert academic and professional writing services, including research dissertations, essay writing, content creation, and editing. We deliver quality, originality, and precision tailored to your needs.",
+    "Professional Research & Writing Services for Global Clients. We provide high-quality research, writing, and editing services to clients worldwide.",
 };
 
 export default function RootLayout({
