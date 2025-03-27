@@ -9,26 +9,26 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-[url('http://res.cloudinary.com/popit/image/upload/v1742495411/indzjv2canzhr0waycju.jpg')] bg-cover bg-center bg-no-repeat p-6 h-32 md:h-60 w-full z-50">
+    <header className="bg-gray-500 bg-opacity-50 p-6 h-20 md:h-32 lg:h-40 2xl:h-48 w-full z-50 bg-[url('http://res.cloudinary.com/popit/image/upload/v1742495411/indzjv2canzhr0waycju.jpg')] bg-cover bg-center bg-no-repeat">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
-              width={350}
-              height={350}
+              width={200}
+              height={200}
             />
           </Link>
         </div>
         <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               priority
             />
           </Link>
@@ -47,7 +47,7 @@ const Header = () => {
             { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
-              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
+              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-startw-20 w-24 h-16 lg:w-24 lg:h-20 xl:w-28 xl:h-24 flex items-start justify-start">
                 {item.label}
               </button>
             </Link>
@@ -57,7 +57,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gray-500 focus:outline-none z-50"
+          className="md:hidden text-[whitesmoke] focus:outline-none z-50"
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>

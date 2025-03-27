@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Header from "@/components/header-bg";
+import Header from "./_components/header-bg";
 import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
