@@ -21,7 +21,7 @@ export default function AIRemoval() {
             <Link href="/">
               <span className="cursor-pointer hover:underline">← Home</span>
             </Link>
-            <Link href="/">
+            <Link href="contact">
               <span className="cursor-pointer hover:underline">
                 Contact Us →
               </span>
