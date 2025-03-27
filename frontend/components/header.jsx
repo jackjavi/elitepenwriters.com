@@ -12,13 +12,14 @@ const Header = () => {
     <header className="bg-transparent p-6 h-32 md:h-60 w-full z-50">
       <div className="flex justify-between h-full">
         {/* Logo */}
-        <div className="hidden md:flex align-top space-x-2 w-100 h-100">
+        
+        <div className="hidden md:flex align-top space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite Brains Consulting Logo"
-              width={350}
-              height={350}
+              width={200}
+              height={200}
             />
           </Link>
         </div>
@@ -46,7 +47,7 @@ const Header = () => {
             { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
-              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
+              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start text-sm  w-20 h-16 lg:w-24 lg:h-20 xl:w-28 xl:h-24 flex items-start justify-start">
                 {item.label}
               </button>
             </Link>

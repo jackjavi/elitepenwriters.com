@@ -13,15 +13,13 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="flex flex-col items-center text-center h-[75vh]">
-        {/* Video Background */}
-        <div className="absolute top-0 left-0 w-full h-full">
-          <video
+       {/* Image Background */}
+       <div className="hidden md:block absolute top-0 left-0 w-full h-full">
+          <Image
             className="w-full h-full object-cover"
-            src="/videos/elite-brains-consulting-home-bg.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
+            src="http://res.cloudinary.com/popit/image/upload/v1742463526/brmzq8jzo3kqkv8cwmmv.jpg"
+            alt="EBC Home Background"
+            layout="fill"
           />
           {/* Opacity Overlay */}
           <div className="absolute top-0 left-0 w-full h-full bg-extrabold bg-opacity-50"></div>

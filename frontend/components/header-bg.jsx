@@ -9,26 +9,26 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-500 bg-opacity-50 p-6 h-32 md:h-60 w-full z-50">
+    <header className="bg-gray-500 bg-opacity-50 p-6 h-32 lg:h-48 2xl:h-60 w-full z-50">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
-              width={350}
-              height={350}
+              width={200}
+              height={200}
             />
           </Link>
         </div>
         <div className="md:hidden flex items-center space-x-2">
           <Link href="/">
             <Image
-              src="http://res.cloudinary.com/popit/image/upload/v1742460748/tgzzheu9qd0uq5qokfnc.png"
+              src="http://res.cloudinary.com/popit/image/upload/v1743077745/dlzdw4v2n37g79bu6bls.png"
               alt="Elite BRAINS CONSULTING Logo White"
-              width={150}
-              height={150}
+              width={100}
+              height={100}
               priority
             />
           </Link>
