@@ -23,7 +23,7 @@ export default function ContactForm() {
   // };
 
   return (
-    <div className="bg-gray-900 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
+    <div className="bg-gray-700 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
       <h2 className="text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-center">Get in Touch with Us</h2>
       <p className="text-center text-xs lg:text-sm xl:text-md 2xl:text-lg mt-2">
         We typically respond within 1 hour during business hours.
