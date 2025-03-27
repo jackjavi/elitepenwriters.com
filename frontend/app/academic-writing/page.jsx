@@ -18,7 +18,7 @@ export default function AcademicWritingServices() {
         {/* Main Content */}
         <main className="p-6 mb-20">
           {/* Navigation */}
-          <div className="flex justify-between items-center text-gray-700 text-sm">
+          <div className="flex justify-between items-center text-gray-700 text-xs 2xl:text-sm">
             <Link href="/">
               <span className="cursor-pointer hover:underline">← Home</span>
             </Link>
@@ -31,7 +31,7 @@ export default function AcademicWritingServices() {
 
           {/* Progress Bar */}
           <div className="mt-6 text-center">
-            <p className="text-xl font-semibold text-indigo-700">
+            <p className="text-xs lg:text-sm xl:text-md 2xl:text-lg font-semibold text-indigo-700">
               Comprehensive Academic Writing Assistance for Bachelor’s, Master’s
               & PhD
             </p>
@@ -48,12 +48,12 @@ export default function AcademicWritingServices() {
           </div>
 
           {/* Main Content */}
-          <h1 className="mt-8 text-3xl font-black text-gray-700">
+          <h1 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-black text-gray-700">
             ELITE BRAINS CONSULTING – YOUR PARTNER IN ACADEMIC EXCELLENCE
           </h1>
 
           {/* Overview Section */}
-          <div className="mt-4 bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
+          <div className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
             Navigating academic writing can be challenging. At Elite Brains
             Consulting, we provide expert guidance on essays, research papers,
             reports, case studies, and more. Our services are AI-free, uniquely
@@ -61,10 +61,10 @@ export default function AcademicWritingServices() {
           </div>
 
           {/* Services Breakdown */}
-          <h2 className="mt-8 text-xl font-bold text-gray-700">
+          <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
             Our Academic Writing Services Cover:
           </h2>
-          <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4">
+          <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg">
             <li>
               <span className="font-semibold text-blue-700">Essays:</span>{" "}
               Crafting well-structured and original essays for any subject.
@@ -105,10 +105,10 @@ export default function AcademicWritingServices() {
           </div>
 
           {/* AI-Free & Customization */}
-          <h2 className="mt-8 text-xl font-bold text-gray-700">
+          <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
             100% AI-Free, Original & Tailored Academic Writing Services
           </h2>
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-gray-700 leading-relaxed text-xs lg:text-sm xl:text-md 2xl:text-lg">
             We prioritize authenticity and academic integrity. Every paper is
             meticulously crafted by our experts, ensuring originality, critical
             analysis, and compliance with top-tier academic guidelines.

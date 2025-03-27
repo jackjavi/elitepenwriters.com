@@ -5,12 +5,12 @@ export default function Sidebar() {
   return (
     <div className="hidden md:block md:max-w-md p-6">
       {/* Sidebar Title */}
-      <h2 className="text-lg font-bold text-gray-900">
+      <h2 className="text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-900">
         ACADEMIC RESEARCH AND COURSEWORK HELP
       </h2>
 
       {/* Navigation Links */}
-      <ul className="mt-4 space-y-2 text-gray-700">
+      <ul className="mt-4 space-y-2 text-gray-700 text-xs lg:text-sm xl:text-md 2xl:text-lg">
         {[
           { name: "Academic Research", href: "/academic-writing" },
           { name: "Dissertation Consulting", href: "/research" },
@@ -20,7 +20,7 @@ export default function Sidebar() {
             key={index}
             className={`${
               item.name === "Academic Research"
-                ? "bg-gray-800 bg-opacity-30 text-white px-3 py-2 rounded"
+                ? "bg-gray-800 bg-opacity-30 text-white px-3 py-2 rounded "
                 : "hover:text-indigo-600 cursor-pointer"
             }`}
           >
@@ -41,7 +41,7 @@ export default function Sidebar() {
       </div>
 
       {/* Sidebar Quote */}
-      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800">
+      <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800 text-xs lg:text-sm xl:text-md 2xl:text-lg">
         “For years, Elite Brains Consulting has provided expert academic writing
         assistance, helping students and professionals craft high-quality
         essays, research papers, and reports. We are committed to delivering
