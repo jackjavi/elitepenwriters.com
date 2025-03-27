@@ -12,7 +12,7 @@ const Header = () => {
     <header className="bg-transparent p-6 h-32 md:h-60 w-full z-50">
       <div className="flex justify-between h-full">
         {/* Logo */}
-        
+
         <div className="hidden md:flex align-top space-x-2">
           <Link href="/">
             <Image
@@ -43,8 +43,8 @@ const Header = () => {
             },
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
-            { label: "Contact Us", link: "#" },
-            { label: "Home", link: "#" },
+            { label: "Contact Us", link: "contact" },
+            { label: "Home", link: "/" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
               <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start text-sm  w-20 h-16 lg:w-24 lg:h-20 xl:w-28 xl:h-24 flex items-start justify-start">
@@ -73,7 +73,7 @@ const Header = () => {
             },
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
-            { label: "Contact Us", link: "#" },
+            { label: "Contact Us", link: "contact" },
             { label: "Home", link: "/" },
           ].map((item, index) => (
             <Link key={index} href={item.link} onClick={() => setIsOpen(false)}>
