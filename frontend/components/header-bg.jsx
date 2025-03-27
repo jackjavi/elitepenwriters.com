@@ -57,7 +57,7 @@ const Header = () => {
         {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gray-500 focus:outline-none z-50"
+          className="md:hidden text-[whitesmoke] focus:outline-none z-50"
         >
           {isOpen ? <X size={32} /> : <Menu size={32} />}
         </button>
