@@ -24,14 +24,14 @@ export default function ContactForm() {
 
   return (
     <div className="bg-gray-900 text-white p-6 shadow-lg max-w-3xl mx-auto mt-10">
-      <h2 className="text-2xl font-bold text-center">Get in Touch with Us</h2>
-      <p className="text-center mt-2">
+      <h2 className="text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-center">Get in Touch with Us</h2>
+      <p className="text-center text-xs lg:text-sm xl:text-md 2xl:text-lg mt-2">
         We typically respond within 1 hour during business hours.
       </p>
       <form
         action="https://getform.io/f/ae834033-cf08-4bdf-abdc-879e5999abb2"
         method="POST"
-        className="mt-6 flex flex-col gap-4"
+        className="mt-6 flex flex-col gap-4 text-xs lg:text-sm xl:text-md 2xl:text-lg"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
@@ -89,8 +89,8 @@ export default function ContactForm() {
       </form>
 
       <div className="mt-6">
-        <h3 className="font-bold">Other Ways to Contact Us:</h3>
-        <ul className="mt-2">
+        <h3 className="font-bold text-sm lg:text-md xl:text-lg 2xl:text-xl">Other Ways to Contact Us:</h3>
+        <ul className="mt-2 text-xs lg:text-sm xl:text-md 2xl:text-lg">
           <li className="mt-2">
             <strong>1.</strong> Fill out the form above, and we’ll reach out
             within an hour.

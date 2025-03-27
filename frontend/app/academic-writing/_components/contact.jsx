@@ -33,7 +33,7 @@ export default function ContactForm() {
         method="POST"
         className="mt-6 flex flex-col gap-4 text-xs lg:text-sm xl:text-md 2xl:text-lg"
       >
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
           <input
             type="text"
             name="firstName"
