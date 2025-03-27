@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-500 bg-opacity-50 p-6 h-32 lg:h-48 2xl:h-60 w-full z-50">
+    <header className="bg-gray-500 bg-opacity-50 p-6 h-20 md:h-32 lg:h-40 2xl:h-48 w-full z-50">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">
@@ -47,7 +47,7 @@ const Header = () => {
             { label: "Home", link: "#" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
-              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-start w-28 h-24 flex items-start justify-start">
+              <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-startw-20 w-24 h-16 lg:w-24 lg:h-20 xl:w-28 xl:h-24 flex items-start justify-start">
                 {item.label}
               </button>
             </Link>

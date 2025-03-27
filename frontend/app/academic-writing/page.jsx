@@ -11,7 +11,7 @@ export default function AcademicWritingServices() {
   return (
     <>
       <Header />
-      <div className="flex gap-8 pt-4 md:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
+      <div className="flex gap-8 pt-4 md:max-w-xl lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
         {/* Sidebar on the left */}
         <Sidebar />
 
