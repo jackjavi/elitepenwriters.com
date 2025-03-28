@@ -10,7 +10,7 @@ export default function Sidebar() {
       </h2>
 
       {/* Navigation Links */}
-      <ul className="mt-4 space-y-2 text-gray-700 text-xs lg:text-sm xl:text-md 2xl:text-lg">
+      <ul className="mt-4 space-y-2 text-gray-700 text-xs 2xl:xl:text-sm">
         {[
           { name: "Academic Research", href: "/academic-writing" },
           { name: "Dissertation Consulting", href: "/research" },

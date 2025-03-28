@@ -5,12 +5,12 @@ export default function Sidebar() {
   return (
     <div className="hidden md:block md:max-w-md p-6">
       {/* Sidebar Title */}
-      <h2 className="text-lg font-bold text-gray-900 text-sm lg:text-md xl:text-lg 2xl:text-xl">
+      <h2 className="font-bold text-gray-900 text-sm lg:text-md xl:text-lg 2xl:text-xl">
         ACADEMIC RESEARCH AND DISSERTATION CONSULTING
       </h2>
 
       {/* Navigation Links */}
-      <ul className="mt-4 space-y-2 text-gray-700 text-xs lg:text-sm xl:text-md">
+      <ul className="mt-4 space-y-2 text-gray-700 text-xs 2xl:xl:text-sm">
         {[
           { name: "Academic Research", href: "/academic-writing" },
           { name: "Dissertation Consulting", href: "/research" },
