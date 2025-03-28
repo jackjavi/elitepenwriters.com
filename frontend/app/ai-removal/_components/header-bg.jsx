@@ -43,8 +43,8 @@ const Header = () => {
             },
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
-            { label: "Contact Us", link: "#" },
-            { label: "Home", link: "#" },
+            { label: "Contact Us", link: "contact" },
+            { label: "Home", link: "/" },
           ].map((item, index) => (
             <Link key={index} href={item.link}>
               <button className="hover:underline bg-gray-800 bg-opacity-80 text-[#e8f7f7] px-2 py-2 rounded text-startw-20 w-24 h-16 lg:w-24 lg:h-20 xl:w-28 xl:h-24 flex items-start justify-start">
@@ -73,8 +73,8 @@ const Header = () => {
             },
             { label: "Dissertation Consulting", link: "research" },
             { label: "AI Removal", link: "ai-removal" },
-            { label: "Contact Us", link: "#" },
-            { label: "Home", link: "#" },
+            { label: "Contact Us", link: "contact" },
+            { label: "Home", link: "/" },
           ].map((item, index) => (
             <Link key={index} href={item.link} onClick={() => setIsOpen(false)}>
               <button className="text-white text-lg hover:underline">
