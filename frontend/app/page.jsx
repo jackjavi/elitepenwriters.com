@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center  text-center h-[75vh] text-[whitesmoke] bg-gray-700 bg-opacity-50">
+      <section className="flex flex-col items-center justify-center  text-center h-full md:h-[75vh] text-[whitesmoke] bg-gray-700 bg-opacity-50">
         {/* Video Background */}
         <div className="hidden md:block absolute top-0 left-0 w-full h-full">
           <video
@@ -32,7 +32,6 @@ export default function Home() {
           {/* Opacity Overlay */}
           <div className="absolute top-0 left-0 w-full h-full bg-extrabold bg-opacity-50"></div>
         </div>
-        
 
         {/* Overlay Content */}
         <div className="z-10 bg-opacity-110 p-10 rounded-lg md:pl-[25%]">
