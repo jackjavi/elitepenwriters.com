@@ -9,7 +9,7 @@ const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-gray-500 bg-opacity-50 p-6 h-20 md:h-32 lg:h-40 2xl:h-48 w-full z-50">
+    <header className="bg-gray-500 bg-opacity-50 p-6 h-20 md:h-32 lg:h-40 2xl:h-48 w-full z-50 bg-[url('http://res.cloudinary.com/popit/image/upload/v1743336476/abu8rkwrtf4gp0qi361p.png')] bg-cover bg-center bg-no-repeat">
       <div className="flex justify-between items-center">
         {/* Logo */}
         <div className="hidden md:flex ju items-center space-x-2">

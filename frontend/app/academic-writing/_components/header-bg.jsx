@@ -68,6 +68,10 @@ const Header = () => {
         <div className="md:hidden bg-gray-900 bg-opacity-90 absolute top-20 left-0 w-full flex flex-col items-center space-y-4 py-6">
           {[
             {
+              label: "Full Stack Software Development",
+              link: "/mern-stack",
+            },
+            {
               label: "Academic Research",
               link: "/academic-writing",
             },
