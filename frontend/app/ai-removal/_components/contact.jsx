@@ -91,7 +91,9 @@ export default function ContactForm() {
       </form>
 
       <div className="mt-6">
-        <h3 className="font-bold text-sm lg:text-md xl:text-lg 2xl:text-xl">Other Ways to Contact Us:</h3>
+        <h3 className="font-bold text-sm lg:text-md xl:text-lg 2xl:text-xl">
+          Other Ways to Contact Us:
+        </h3>
         <ul className="mt-2 text-xs lg:text-sm xl:text-md 2xl:text-lg">
           <li className="mt-2">
             <strong>1.</strong> Fill out the form above, and we’ll reach out
@@ -100,7 +102,7 @@ export default function ContactForm() {
           <li className="mt-2">
             <strong>2.</strong> Contact us on WhatsApp at{" "}
             <Link
-              href="https://wa.me/254708313804"
+              href="https://wa.me/254115005343"
               target="_blank"
               className="text-teal-300 underline"
             >

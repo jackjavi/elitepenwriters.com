@@ -110,7 +110,7 @@ export default function ContactForm() {
             <li className="mt-2">
               <strong>2.</strong> Contact us on WhatsApp at{" "}
               <Link
-                href="https://wa.me/254708313804"
+                href="https://wa.me/254115005343"
                 target="_blank"
                 className="text-teal-300 underline"
               >
