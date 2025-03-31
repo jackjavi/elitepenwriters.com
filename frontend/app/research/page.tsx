@@ -2,13 +2,35 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Header from "@/components/header-bg";
+import Header from "./_components/header-bg";
 import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { Metadata } from "next";
 
-export default function AcademicWritingServices() {
+export const metadata: Metadata = {
+  title: "Dissertation Services | Elite Brains Consulting",
+  description: "Expert Dissertation Services for Academic Excellence",
+  openGraph: {
+    title: "Dissertation Services | Elite Brains Consulting",
+    description: "Expert Dissertation Services for Academic Excellence",
+    url: "https://elitebrainsconsulting.com/research",
+    images: [
+      {
+        url: "/images/dissertation.jpg",
+        width: 800,
+        height: 600,
+        alt: "Dissertation Services",
+      },
+    ],
+  },
+  keywords: [
+    "dissertation services, academic writing, research assistance, thesis writing, dissertation editing",
+  ],
+};
+
+export default function DissertationServices() {
   return (
     <>
       <GoogleTagManager gtmId="G-CRTE62J39K" />
@@ -34,8 +56,7 @@ export default function AcademicWritingServices() {
           {/* Progress Bar */}
           <div className="mt-6 text-center">
             <p className="text-xs lg:text-sm xl:text-md 2xl:text-lg font-semibold text-indigo-700">
-              Comprehensive Academic Writing Assistance for Bachelor’s, Master’s
-              & PhD
+              Expert Dissertation Assistance from Start to Finish
             </p>
             <div className="flex justify-center items-center mt-2">
               <div className="flex space-x-2">
@@ -51,53 +72,57 @@ export default function AcademicWritingServices() {
 
           {/* Main Content */}
           <h1 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-black text-gray-700">
-            ELITE BRAINS CONSULTING – YOUR PARTNER IN ACADEMIC EXCELLENCE
+            ELITE BRAINS CONSULTING – YOUR PARTNER IN THE DISSERTATION JOURNEY
           </h1>
 
           {/* Overview Section */}
           <div className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
-            Navigating academic writing can be challenging. At Elite Brains
-            Consulting, we provide expert guidance on essays, research papers,
-            reports, case studies, and more. Our services are AI-free, uniquely
-            tailored, and designed to meet top academic standards.
+            Every stage of your dissertation process is crucial. At Elite Brains
+            Consulting, we provide expert guidance from the introduction to the
+            conclusion. Our services are AI-free, uniquely tailored, and
+            designed to meet top academic standards.
           </div>
 
-          {/* Services Breakdown */}
+          {/* Stages of Dissertation */}
           <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
-            Our Academic Writing Services Cover:
+            Our Services Cover:
           </h2>
-          <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg">
+          <ul className="list-disc pl-6 text-gray-500 leading-relaxed mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg">
             <li>
-              <span className="font-semibold text-blue-700">Essays:</span>{" "}
-              Crafting well-structured and original essays for any subject.
+              <span className="font-semibold text-blue-700">Introduction:</span>
+              Establishing research objectives, significance, and structure.
             </li>
             <li>
               <span className="font-semibold text-blue-700">
-                Research Papers:
-              </span>{" "}
-              Conducting in-depth analysis with credible sources.
+                Literature Review:
+              </span>
+              A comprehensive, analytical review identifying gaps in existing
+              research.
             </li>
             <li>
-              <span className="font-semibold text-blue-700">Case Studies:</span>{" "}
-              Developing detailed case studies with critical insights.
-            </li>
-            <li>
-              <span className="font-semibold text-blue-700">
-                Thesis & Dissertations:
-              </span>{" "}
-              Comprehensive writing support from topic selection to final edits.
+              <span className="font-semibold text-blue-700">Methodology:</span>
+              Crafting a robust research design, data collection, and analysis
+              plan.
             </li>
             <li>
               <span className="font-semibold text-blue-700">
-                Coursework & Assignments:
-              </span>{" "}
-              Assisting with mid-term and end-of-term projects.
+                Results & Analysis:
+              </span>
+              Interpreting findings with clarity and academic precision.
+            </li>
+            <li>
+              <span className="font-semibold text-blue-700">Discussion:</span>
+              Linking findings to research questions and theoretical frameworks.
             </li>
             <li>
               <span className="font-semibold text-blue-700">
-                Editing & Proofreading:
-              </span>{" "}
-              Refining content for clarity, coherence, and academic rigor.
+                Recommendations:
+              </span>
+              Offering practical insights and areas for further research.
+            </li>
+            <li>
+              <span className="font-semibold text-blue-700">Conclusion:</span>
+              Summarizing key insights and emphasizing research contributions.
             </li>
           </ul>
 
@@ -106,14 +131,14 @@ export default function AcademicWritingServices() {
             <ContactForm />
           </div>
 
-          {/* AI-Free & Customization */}
+          {/* AI-Free & Editing Section */}
           <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
-            100% AI-Free, Original & Tailored Academic Writing Services
+            100% AI-Free, Customized, and Professional Editing Services
           </h2>
           <p className="mt-4 text-gray-700 leading-relaxed text-xs lg:text-sm xl:text-md 2xl:text-lg">
-            We prioritize authenticity and academic integrity. Every paper is
-            meticulously crafted by our experts, ensuring originality, critical
-            analysis, and compliance with top-tier academic guidelines.
+            We ensure your dissertation is meticulously crafted by subject
+            matter experts. Our editing services refine your work, improving
+            clarity, coherence, and adherence to academic standards.
           </p>
         </main>
       </div>

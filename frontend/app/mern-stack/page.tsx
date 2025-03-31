@@ -7,6 +7,31 @@ import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
 import { GoogleTagManager } from "@next/third-parties/google";
+import { Metadata } from "next";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
+
+export const metadata: Metadata = {
+  title: "MERN Stack Development Services | Elite Brains Consulting",
+  description:
+    "Professional MERN Stack Development Services for Scalable Web Solutions",
+  openGraph: {
+    title: "MERN Stack Development Services | Elite Brains Consulting",
+    description:
+      "Professional MERN Stack Development Services for Scalable Web Solutions",
+    url: "https://elitebrainsconsulting.com/mern-stack",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 800,
+        height: 600,
+        alt: "MERN Stack Development Services",
+      },
+    ],
+  },
+  keywords: [
+    "mern stack, web development, scalable solutions, mongodb, express, react, node.js",
+  ],
+};
 
 export default function MernStackPage() {
   return (
