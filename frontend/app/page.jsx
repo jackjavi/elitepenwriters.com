@@ -5,10 +5,12 @@ import Link from "next/link";
 import Header from "../components/header";
 import Header2 from "../components/header-bg";
 import Footer from "../components/footer-2";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function Home() {
   return (
     <div className="h-screen flex flex-col font-[family-name:var(--font-geist-sans)] ">
+      <GoogleTagManager gtmId="G-CRTE62J39K" />
       {/* Header */}
       <div className="md:hidden">
         <Header2 />

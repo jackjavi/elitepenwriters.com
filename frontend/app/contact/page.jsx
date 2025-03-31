@@ -4,6 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import Header from "@/components/header-bg";
 import Footer from "@/components/footer-2";
+import { GoogleTagManager } from "@next/third-parties/google";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -28,6 +29,7 @@ export default function ContactForm() {
 
   return (
     <>
+      <GoogleTagManager gtmId="G-CRTE62J39K" />
       <Header />
 
       {/* Main Content */}
