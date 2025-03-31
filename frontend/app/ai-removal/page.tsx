@@ -114,7 +114,7 @@ export default function AIRemoval() {
             Who Benefits from AI Removal?
           </h2>
           <p className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg text-gray-700 leading-relaxed">
-            Whether you're a student, researcher, or professional, our AI
+            Whether you&apos;re a student, researcher, or professional, our AI
             removal service helps ensure your work meets originality standards
             and remains credible in academic and corporate settings.
           </p>
