@@ -5,6 +5,7 @@ import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Metadata } from "next";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Dissertation Services | Elite Brains Consulting",
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
     title: "Dissertation Services | Elite Brains Consulting",
     description: "Expert Dissertation Services for Academic Excellence",
     url: "https://elitebrainsconsulting.com/research",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 800,
+        height: 600,
+        alt: "Dissertation Services",
+      },
+    ],
   },
   keywords: [
     "dissertation services, academic writing, research assistance, thesis writing, dissertation editing",

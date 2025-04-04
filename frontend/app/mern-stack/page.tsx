@@ -16,6 +16,14 @@ export const metadata: Metadata = {
     description:
       "Professional MERN Stack Development Services for Scalable Web Solutions",
     url: "https://elitebrainsconsulting.com/mern-stack",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 800,
+        height: 600,
+        alt: "MERN Stack Development Services",
+      },
+    ],
   },
   keywords: [
     "mern stack, web development, scalable solutions, mongodb, express, react, node.js",

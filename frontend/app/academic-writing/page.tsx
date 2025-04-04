@@ -5,6 +5,7 @@ import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Metadata } from "next";
+import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "Academic Writing Services | Elite Brains Consulting",
@@ -18,6 +19,14 @@ export const metadata: Metadata = {
     description:
       "Expert Academic Writing Services for Essays, Research Papers, and More",
     url: "https://elitebrainsconsulting.com/academic-writing",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 800,
+        height: 600,
+        alt: "Academic Writing Services",
+      },
+    ],
   },
 };
 

@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     title: "AI Removal Services | Elite Brains Consulting",
     description: "Expert AI Removal Services for Academic Integrity",
     url: "https://elitebrainsconsulting.com/ai-removal",
+    images: [
+      {
+        url: HOME_OG_IMAGE_URL,
+        width: 800,
+        height: 600,
+        alt: "AI Removal Services",
+      },
+    ],
   },
   keywords: [
     "AI removal, academic integrity, humanized content, plagiarism-free",
