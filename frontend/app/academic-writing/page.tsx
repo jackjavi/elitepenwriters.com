@@ -19,14 +19,6 @@ export const metadata: Metadata = {
     description:
       "Expert Academic Writing Services for Essays, Research Papers, and More",
     url: "https://elitebrainsconsulting.com/academic-writing",
-    images: [
-      {
-        url: HOME_OG_IMAGE_URL,
-        width: 800,
-        height: 600,
-        alt: "Academic Writing Services",
-      },
-    ],
   },
 };
 

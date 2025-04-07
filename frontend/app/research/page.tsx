@@ -14,14 +14,6 @@ export const metadata: Metadata = {
     title: "Dissertation Services | Elite Brains Consulting",
     description: "Expert Dissertation Services for Academic Excellence",
     url: "https://elitebrainsconsulting.com/research",
-    images: [
-      {
-        url: HOME_OG_IMAGE_URL,
-        width: 800,
-        height: 600,
-        alt: "Dissertation Services",
-      },
-    ],
   },
   keywords: [
     "dissertation services, academic writing, research assistance, thesis writing, dissertation editing",
