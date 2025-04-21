@@ -1,5 +1,3 @@
-// pages/automation-bots.tsx
-
 "use client";
 
 import Link from "next/link";
@@ -105,10 +103,10 @@ export default function AutomationBots() {
             Let’s Build Something Smart Together
           </h2>
           <p className="mt-4 text-gray-700 leading-relaxed">
-            Whether you're a solopreneur, student, or business, EBC Developers
-            will tailor the perfect automation tool for your needs. Our prices
-            are flexible, our delivery is fast, and our solutions work while you
-            sleep.
+            Whether you&apos;re a solopreneur, student, or business, EBC
+            Developers will tailor the perfect automation tool for your needs.
+            Our prices are flexible, our delivery is fast, and our solutions
+            work while you sleep.
           </p>
         </main>
       </div>

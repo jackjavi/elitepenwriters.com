@@ -5,7 +5,7 @@ import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
 import { GoogleTagManager } from "@next/third-parties/google";
 import { Metadata } from "next";
-import { HOME_OG_IMAGE_URL } from "@/lib/constants";
+// import { HOME_OG_IMAGE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
   title: "AI Removal Services | Elite Brains Consulting",
