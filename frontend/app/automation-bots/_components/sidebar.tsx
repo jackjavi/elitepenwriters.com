@@ -1,14 +1,11 @@
-"use client";
-
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Sidebar() {
   return (
     <div className="hidden md:block md:max-w-md p-6">
-      {/* Sidebar Title */}
       <h2 className="text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-900">
-        MERN STACK WEB & API DEVELOPMENT
+        OUR TECH SERVICES
       </h2>
 
       {/* Navigation Links */}
@@ -20,7 +17,7 @@ export default function Sidebar() {
           <li
             key={index}
             className={`${
-              item.name === "MERN Stack Dev"
+              item.name === "Automation Bots"
                 ? "bg-gray-800 bg-opacity-30 text-white px-3 py-2 rounded "
                 : "hover:text-indigo-600 cursor-pointer"
             }`}
@@ -30,23 +27,20 @@ export default function Sidebar() {
         ))}
       </ul>
 
-      {/* Sidebar Image */}
-      <div className="mt-12">
+      {/* <div className="mt-12">
         <Image
-          src="http://res.cloudinary.com/popit/image/upload/v1743336476/abu8rkwrtf4gp0qi361p.png"
-          alt="Academic Research"
+          src="http://res.cloudinary.com/popit/image/upload/v1742305472/wy4tczfczwhxhk8gors0.png"
+          alt="EBC Automation Bots"
           width={500}
           height={500}
           layout="responsive"
         />
-      </div>
+      </div> */}
 
-      {/* Sidebar Quote */}
       <blockquote className="mt-6 p-4 bg-gray-200 border-l-4 border-blue-600 italic text-gray-800 text-xs lg:text-sm xl:text-md 2xl:text-lg">
-        “Elite Brains Consulting engineers cutting-edge, scalable, and secure
-        MERN stack applications tailored for startups, SMEs, and enterprise
-        clients globally. From robust APIs to responsive UIs — we've got it
-        covered.”
+        “EBC Developers crafts smart automation tools—from X bots to academic
+        bidding systems—empowering our clients to win time, clients, and peace
+        of mind.”
       </blockquote>
     </div>
   );

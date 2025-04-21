@@ -72,6 +72,10 @@ const Header = () => {
               link: "/mern-stack",
             },
             {
+              label: "Automation Bots",
+              link: "/automation-bots",
+            },
+            {
               label: "Academic Research",
               link: "/academic-writing",
             },

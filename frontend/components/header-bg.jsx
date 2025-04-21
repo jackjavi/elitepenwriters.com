@@ -42,6 +42,10 @@ const Header = () => {
               link: "/mern-stack",
             },
             {
+              label: "Automation Bots",
+              link: "/automation-bots",
+            },
+            {
               label: "Academic Research",
               link: "/academic-writing",
             },
@@ -74,6 +78,10 @@ const Header = () => {
             {
               label: "Full Stack Software Development",
               link: "/mern-stack",
+            },
+            {
+              label: "Automation Bots",
+              link: "/automation-bots",
             },
             {
               label: "Academic Research",
