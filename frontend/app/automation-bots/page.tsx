@@ -1,14 +1,30 @@
-"use client";
-
 import Link from "next/link";
 import Header from "./_components/header-bg";
 import Sidebar from "./_components/sidebar";
 import Footer from "@/components/footer-2";
 import ContactForm from "./_components/contact";
+import { Metadata } from "next";
+import { GoogleTagManager } from "@next/third-parties/google";
+
+export const metadata: Metadata = {
+  title: "Automation Bots | Elite Brains Consulting",
+  description:
+    "Custom Automation Bots for Academic, Business, and Social Platforms",
+  openGraph: {
+    title: "Automation Bots | Elite Brains Consulting",
+    description:
+      "Custom Automation Bots for Academic, Business, and Social Platforms",
+    url: "https://www.elitebrainsconsulting.com/automation-bots",
+  },
+  keywords: [
+    "automation bots, academic bots, business automation, social media bots",
+  ],
+};
 
 export default function AutomationBots() {
   return (
     <>
+      <GoogleTagManager gtmId="G-Q0BQHLYC45" />
       <Header />
       <div className="flex gap-8 pt-4 md:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
         {/* Sidebar */}
