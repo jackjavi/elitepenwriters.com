@@ -75,7 +75,7 @@ export default function AutomationBots() {
           <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
             Our Custom Bot Solutions:
           </h2>
-          <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4">
+          <ul className="list-disc pl-6 text-xs lg:text-sm xl:text-md 2xl:text-lg text-gray-700 leading-relaxed mt-4">
             <li>
               <span className="font-semibold text-blue-700">
                 AI-Integrated X.com Bots:
@@ -115,10 +115,10 @@ export default function AutomationBots() {
             <ContactForm />
           </div>
 
-          <h2 className="mt-8 text-lg font-bold text-gray-700">
+          <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
             Let’s Build Something Smart Together
           </h2>
-          <p className="mt-4 text-gray-700 leading-relaxed">
+          <p className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg text-gray-700 leading-relaxed">
             Whether you&apos;re a solopreneur, student, or business, EBC
             Developers will tailor the perfect automation tool for your needs.
             Our prices are flexible, our delivery is fast, and our solutions
