@@ -62,17 +62,17 @@ export default function AutomationBots() {
             </div>
           </div>
 
-          <h1 className="mt-8 text-xl font-black text-gray-700">
+          <h1 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-black text-gray-700">
             EBC DEVELOPERS – YOUR AUTOMATION PARTNER
           </h1>
 
-          <div className="mt-4 bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
+          <div className="mt-4 text-xs lg:text-sm xl:text-md 2xl:text-lg bg-gray-100 border-l-4 border-teal-500 p-4 italic text-gray-500">
             We create smart, affordable automation bots that help you grow, save
             time, and win more clients—whether for academic platforms, Telegram,
             WhatsApp, or X (Twitter).
           </div>
 
-          <h2 className="mt-8 text-lg font-bold text-gray-700">
+          <h2 className="mt-8 text-sm lg:text-md xl:text-lg 2xl:text-xl font-bold text-gray-700">
             Our Custom Bot Solutions:
           </h2>
           <ul className="list-disc pl-6 text-gray-700 leading-relaxed mt-4">
