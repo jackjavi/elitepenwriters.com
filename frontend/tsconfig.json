@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/page.tsx",
-    "app/automation-bots/_components/contact.jsx"
+    "app/automation-bots/_components/contact.jsx",
+    "app/digital-marketing/page.jsx"
   ],
   "exclude": ["node_modules"]
 }
