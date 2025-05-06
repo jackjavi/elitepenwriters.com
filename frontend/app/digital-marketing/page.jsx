@@ -45,7 +45,7 @@ export default function AutomationBots() {
 
   return (
     <>
-      <GoogleTagManager gtmId="G-Q0BQHLYC45" />
+      <GoogleTagManager gtmId="G-CRTE62J39K" />
       <Header />
       <div className="flex gap-8 pt-4 md:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
         {/* Sidebar */}
