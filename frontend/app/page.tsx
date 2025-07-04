@@ -8,7 +8,7 @@ import { GoogleTagManager } from "@next/third-parties/google";
 export default function Home() {
   return (
     <div className="h-screen flex flex-col font-[family-name:var(--font-geist-sans)] ">
-      <GoogleTagManager gtmId="G-CRTE62J39K" />
+      <GoogleTagManager gtmId="G-WJPRHKB1MZ" />
       {/* Header */}
       <div className="md:hidden">
         <Header2 />

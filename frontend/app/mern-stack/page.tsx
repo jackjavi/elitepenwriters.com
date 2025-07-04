@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 export default function MernStackPage() {
   return (
     <>
-      <GoogleTagManager gtmId="G-CRTE62J39K" />
+      <GoogleTagManager gtmId="G-WJPRHKB1MZ" />
       <Header />
       <div className="flex gap-8 pt-4 md:max-w-xl lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto font-[family-name:var(--font-geist-sans)]">
         <Sidebar />
